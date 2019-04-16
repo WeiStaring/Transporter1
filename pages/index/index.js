@@ -123,32 +123,11 @@ Page({
           url: '../result/result'
         })
       }
-    }
-  },
-  jumpPage: function () {
-    wx.navigateTo({
-      url: '../search/search',
-    })
-  },
-  jumpPageTo: function () {
-    wx.navigateTo({
-      url: '../pay/index',
-    })
-  },
-  getUserInfo: function (e) {
-    wx.cloud.init(),
-    wx.cloud.callFunction({
-      name: "test",//这里填写云函数的名字
-      data: {
-        userInfo: e // 这里是把参数e直接传给test函数处理
-      },
-      success: res => {
-        console.log(res) // 返回的文本如下图所示：
-      },
-      fail: err => {
-        console.log(err)
-      }
+    },
+    jump: function(){
+      wx.navigateTo({
+        url: '../../Search/index',
     })
   }
+  }
 })
-

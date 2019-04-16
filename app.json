@@ -1,5 +1,4 @@
 {
-  "cloud": true,
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
@@ -14,7 +13,6 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"white"
   },
-  "sitemapLocation": "sitemap.json",
   "tabBar" :{
     "color":"black",
     "selectedColor":"#56abe4",
