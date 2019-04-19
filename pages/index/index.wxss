@@ -1,0 +1,21 @@
+/**index.wxss**/
+.usermotto {
+ width: 100%;
+}
+
+.btn{
+  margin-bottom: 2px;
+  width: 30%;
+  height: 60px;
+  text-align: center;
+  background-color: rgba(231, 9, 65, 0.267);
+}
+.swiper {
+  height: 400rpx;
+  width: 100%;
+  margin: 10px;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
